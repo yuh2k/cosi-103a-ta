@@ -3,3 +3,5 @@ Daphne Pissios
 daphnepissios@brandeis.edu
 Mackenzie Chung
 mackenziechung@brandeis.edu
+Doga Altay
+doaaltay@brandeis.edu
