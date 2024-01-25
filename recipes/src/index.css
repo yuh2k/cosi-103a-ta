@@ -6,7 +6,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   color: red;
-  text-align: center;
 }
 
 code {
@@ -21,7 +20,6 @@ code {
 }
 
 ul {
-  text-align: left;
   list-style-type: none;
   background-color: gray;
   overflow: hidden;
@@ -47,4 +45,19 @@ li a:hover{
   color: black;
   background-color:plum;
   text-align: left;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  /* display:inline-block; */
+  border-radius: 3px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color:white;
+  color:black;
 }
