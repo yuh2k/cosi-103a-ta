@@ -107,15 +107,34 @@ function App() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="4">
-        <Accordion.Header>Recipe #5</Accordion.Header>
+        <Accordion.Header>5. Dinner: Kung Pao Chicken 宫保鸡</Accordion.Header>
         <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <h2>Ingredients:</h2>
+        <p>1 lb boneless, skinless chicken breasts, cut into bite-sized pieces</p>
+        <p>2 tablespoons soy sauce</p>
+        <p>1 tablespoon rice vinegar</p>
+        <p>1 tablespoon hoisin sauce</p>
+        <p>1 tablespoon cornstarch</p>
+        <p>1 tablespoon vegetable oil</p>
+        <p>3 cloves garlic, minced</p>
+        <p>1 teaspoon ginger, minced</p>
+        <p>1/2 cup unsalted peanuts</p>
+        <p>2 green onions, sliced</p>
+        <p>1/2 cup diced red bell pepper</p>
+        <p>1/2 cup diced green bell pepper</p>
+        <p>1/4 cup water</p>
+        <p>2 tablespoons chili garlic sauce (adjust to taste)</p>
+        <p>Cooked rice for serving</p>
+        <h2>Instructions:</h2>
+        <p>1. In a bowl, combine soy sauce, rice vinegar, hoisin sauce, and cornstarch. Add the chicken pieces and marinate for about 15-20 minutes.</p>
+        <p>2. Heat vegetable oil in a wok or large skillet over medium-high heat. Add minced garlic and ginger, sauté for about 30 seconds until fragrant.</p>
+        <p>3. Add marinated chicken to the wok and stir-fry until browned and cooked through.</p>
+        <p>4. Add diced red and green bell peppers, peanuts, and sliced green onions.</p>
+        <p>5. Pour in water and chili garlic sauce. Stir-fry for another 1-2 minutes until the sauce thickens.</p>
+        <p>6. Serve the Kung Pao chicken with cooked rice.</p>
+        <p>7. Serve the Kung Pao Chicken over cooked rice and garnish with additional green onions and peanuts if desired.</p>
+        <p>8. Dig in to your home cooked Sichuan Kung Pao Chicken!</p>
+        
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="5">
