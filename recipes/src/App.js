@@ -6,6 +6,9 @@ import waffles from "./Belgian-Waffles-4.jpg";
 import cheesecake from "./cheesecake.jpg";
 import chickensalad from "./chickensalad.jpg";
 import cinnamonrolls from "./cinnamonrolls.jpg";
+import kungpaochicken from "./kungpaochicken.jpeg";
+import agliolio from "./Shrimp-Aglio-Olio.jpeg";
+import menemen from "./Menemen.jpeg";
 
 
 // Your App component
@@ -121,6 +124,7 @@ function App() {
       <Accordion.Item eventKey="4">
         <Accordion.Header>5. Dinner: Kung Pao Chicken 宫保鸡</Accordion.Header>
         <Accordion.Body>
+        <img src= {kungpaochicken} alt= "Kung Pao Chicken" width="250px"></img>
         <h2>Ingredients:</h2>
         <p>1 lb boneless, skinless chicken breasts, cut into bite-sized pieces</p>
         <p>2 tablespoons soy sauce</p>
@@ -152,6 +156,7 @@ function App() {
       <Accordion.Item eventKey="5">
         <Accordion.Header>6. Dinner: Spaghetti Aglio e Olio with Shrimp</Accordion.Header>
         <Accordion.Body>
+        <img src= {agliolio} alt= "Aglio e Olio" width="250px"></img>
         <h2>Ingredients:</h2>
         <p>8 oz spaghetti</p>
         <p>2 tablespoons olive oil</p>
@@ -175,6 +180,7 @@ function App() {
       <Accordion.Item eventKey="6">
         <Accordion.Header>7. Breakfast: Menemen</Accordion.Header>
         <Accordion.Body>
+        <img src= {menemen} alt= "Menemen" width="250px"></img>
         <h2>Ingredients:</h2>
         <p>2 tablespoons olive oil</p>
         <p>1 onion, finely chopped</p>
