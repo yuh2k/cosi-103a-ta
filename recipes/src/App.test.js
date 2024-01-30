@@ -11,3 +11,18 @@ test('renders Accordion with correct default active key', () => {
 
 
 });
+
+test('renders App component without errors', () => {
+  render(<App />);
+});
+
+test('renders Accordion components with specific content', () => {
+  const { getByText } = render(<App />);
+
+  // Check if specific headers and content are present in the Accordion
+  expect(getByText('5. Lunch: Chicken Shawarma')).toBeInTheDocument();
+  expect(getByText('2 tablespoons olive oil')).toBeInTheDocument();
+  expect(getByText('7. Breakfast: Menemen')).toBeInTheDocument();
+  expect(getByText('4 eggs')).toBeInTheDocument();
+
+});

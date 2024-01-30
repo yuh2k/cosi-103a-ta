@@ -42,8 +42,6 @@ function App() {
        <p>7. Once the waffles are ready, transfer them to a plate and top with your favorite fresh fruits.</p>
        <p>8. Drizzle with maple syrup and enjoy your delicious waffle!</p>
       
-
-
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
