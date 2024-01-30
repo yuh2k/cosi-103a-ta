@@ -2,6 +2,7 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import waffles from "./Belgian-Waffles-4.jpg";
 
 
 // Your App component
@@ -32,6 +33,7 @@ function App() {
        <p>6. Pour the batter onto the preheated waffle iron and cook according to the manufacturer's instructions until the waffles are golden brown and crisp.</p>
        <p>7. Once the waffles are ready, transfer them to a plate and top with your favorite fresh fruits.</p>
        <p>8. Drizzle with maple syrup and enjoy your delicious waffle!</p>
+       <img src= {waffles} alt= "waffles" width="250px"></img>
 
 
         </Accordion.Body>
@@ -42,7 +44,7 @@ function App() {
           <h2>Ingredients:</h2>
           <p>1 sheet of store-bought puff pastry</p>
           <p>2 tablespoons melted butter</p>
-          <p>1/4 cup brown sugar</p>
+          <p> 1/4 cup of brown sugar</p>
           <p>1 teaspoon ground cinnamon</p>
           <p>Icing (optional): Powdered sugar and a little milk</p>
           <h2>Instructions:</h2>
@@ -56,6 +58,7 @@ function App() {
           <p>8. Bake in the preheated oven for the time specified on the puff pastry package or until the rolls are golden brown.</p>
           <p>9. Optional: Mix powdered sugar with a small amount of milk to create a simple icing. Drizzle over the warm cinnamon rolls.</p>
           <p>10. Dig into your warm cinnamon rolls!</p>
+       
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
