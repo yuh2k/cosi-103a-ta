@@ -3,15 +3,20 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import waffles from "./Belgian-Waffles-4.jpg";
+import cheesecake from "./cheesecake.jpg";
+import chickensalad from "./chickensalad.jpg";
+import cinnamonrolls from "./cinnamonrolls.jpg";
 
 
 // Your App component
 function App() {
   return (
+    
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>1. Dessert: Fruit Topped Waffles </Accordion.Header>
         <Accordion.Body>
+        <img src= {waffles} alt= "waffles" width="250px"></img>
        <h2> Ingredients:</h2>
        <p>1 cup all-purpose flour </p>
        <p>1 tablespoon sugar </p>
@@ -33,7 +38,7 @@ function App() {
        <p>6. Pour the batter onto the preheated waffle iron and cook according to the manufacturer's instructions until the waffles are golden brown and crisp.</p>
        <p>7. Once the waffles are ready, transfer them to a plate and top with your favorite fresh fruits.</p>
        <p>8. Drizzle with maple syrup and enjoy your delicious waffle!</p>
-       <img src= {waffles} alt= "waffles" width="250px"></img>
+      
 
 
         </Accordion.Body>
@@ -41,6 +46,7 @@ function App() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>2. Dessert : Cinnamon Rolls</Accordion.Header>
         <Accordion.Body>
+        <img src= {cinnamonrolls} alt= "cinnamonrolls" width="250px"></img>
           <h2>Ingredients:</h2>
           <p>1 sheet of store-bought puff pastry</p>
           <p>2 tablespoons melted butter</p>
@@ -64,6 +70,7 @@ function App() {
       <Accordion.Item eventKey="2">
         <Accordion.Header>3. Dessert: Cheesecake</Accordion.Header>
         <Accordion.Body>
+        <img src= {cheesecake} alt= "cheesecake" width="250px"></img>
          <h2>Ingredients:</h2>
          <p>2 cups graham cracker crumbs</p>
          <p>1/2 cup unsalted butter, melted</p>
@@ -86,8 +93,10 @@ function App() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
+      
         <Accordion.Header>4. Dinner: Grilled Chicken and Salad:</Accordion.Header>
         <Accordion.Body>
+        <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img>
           <h2>Ingredients:</h2>
           <p>2 boneless, skinless chicken breasts</p>
           <p>Salt and pepper to taste</p>
