@@ -45,7 +45,7 @@ function App() {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>2. Dessert : Cinnamon Rolls</Accordion.Header>
+        <Accordion.Header>2. Dessert: Cinnamon Rolls</Accordion.Header>
         <Accordion.Body>
         <img src= {cinnamonrolls} alt= "cinnamonrolls" width="250px"></img>
           <h2>Ingredients:</h2>
@@ -95,7 +95,7 @@ function App() {
       </Accordion.Item>
       <Accordion.Item eventKey="3">
       
-        <Accordion.Header>4. Dinner: Grilled Chicken and Salad:</Accordion.Header>
+        <Accordion.Header>4. Dinner: Grilled Chicken and Salad</Accordion.Header>
         <Accordion.Body>
         <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img>
           <h2>Ingredients:</h2>
