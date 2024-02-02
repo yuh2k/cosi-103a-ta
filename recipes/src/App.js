@@ -3,8 +3,8 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import waffles from "./Belgian-Waffles-4.jpg";
-import cheesecake from "./cheesecake.jpg";
-import chickensalad from "./chickensalad.jpg";
+// import cheesecake from "./cheesecake.jpg";
+// import chickensalad from "./chickensalad.jpg";
 import cinnamonrolls from "./cinnamonrolls.jpg";
 import kungpaochicken from "./kungpaochicken.jpeg";
 import agliolio from "./Shrimp-Aglio-Olio.jpeg";
@@ -71,7 +71,7 @@ function App() {
       <Accordion.Item eventKey="2">
         <Accordion.Header>3. Dessert: Cheesecake</Accordion.Header>
         <Accordion.Body>
-        <img src= {cheesecake} alt= "cheesecake" width="250px"></img>
+        {/* <img src= {cheesecake} alt= "cheesecake" width="250px"></img> */}
          <h2>Ingredients:</h2>
          <p>2 cups graham cracker crumbs</p>
          <p>1/2 cup unsalted butter, melted</p>
@@ -97,7 +97,7 @@ function App() {
       
         <Accordion.Header>4. Dinner: Grilled Chicken and Salad</Accordion.Header>
         <Accordion.Body>
-        <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img>
+        {/* <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img> */}
           <h2>Ingredients:</h2>
           <p>2 boneless, skinless chicken breasts</p>
           <p>Salt and pepper to taste</p>
