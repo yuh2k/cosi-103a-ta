@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  color: rgba(255, 154, 188, 0.963);
+  /* color: rgba(255, 154, 188, 0.963); */
 }
 
 code {
@@ -19,10 +19,10 @@ code {
   padding: 0;
 }
 
-ul {
+/* ul {
   list-style-type: none;
-  background-color: rgb(209, 107, 107);
-  overflow: hidden;
+  background-color: rgb(209, 107, 107); */
+  /* overflow: hidden;
   padding: 2%;
 }
 li {
@@ -33,11 +33,12 @@ li a {
   color: rgb(172, 72, 72); 
   font-size: 20px;
   padding:2%;
+  background-color: blanchedalmond;
 }
 li a:hover{
-  background-color: rgb(230, 20, 20);
-  color:rgb(220, 48, 94);
-}
+  background-color: rgb(172, 72, 72);
+  color: blanchedalmond;
+} */
 
 .recipes {
   margin:50px 10px 10px 10px;
@@ -45,7 +46,6 @@ li a:hover{
   color: rgb(251, 130, 130);
   background-color:rgb(221, 160, 221);
   text-align: left;
-  
 }
 
 button {
@@ -53,17 +53,31 @@ button {
   color: rgb(251, 137, 211);
   background-color: rgb(255, 255, 255);
   cursor: pointer;
-  --bs-accordion-btn-focus-box-shadow: none;
+  /* --bs-accordion-btn-focus-box-shadow: none; */
   
   /* display:inline-block; */
   border-radius: 3px;
   padding: 10px;
-  --bs-accordion-active-bg: #ff5c8d
-
+  /* --bs-accordion-active-bg: #ff5c8d */
   
 }
-
 button:hover {
   background-color:rgb(241, 141, 179); /*Changes background color*/
   color:rgb(210, 10, 10); /*Changes text color*/
 }
+
+ .cards img {
+  max-width: 150px;
+  height: auto;
+  display: block; 
+}
+.cards {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1%;
+  border: solid 5px black;
+  border-radius: 10px;
+  margin:5%;
+  /* text-align: center; */
+} 
