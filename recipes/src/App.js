@@ -1,20 +1,19 @@
 // Import necessary dependencies
 import React from 'react';
-import Accordion from 'react-bootstrap/Accordion';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import Accordion from 'react-bootstrap/Accordion';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+
 import waffles from "./Belgian-Waffles-4.jpg";
-// import cheesecake from "./cheesecake.jpg";
-// import chickensalad from "./chickensalad.jpg";
+import cheesecake from "./cheesecake.jpg";
+import chickensalad from "./chickensalad.jpg";
 import cinnamonrolls from "./cinnamonrolls.jpg";
 import kungpaochicken from "./kungpaochicken.jpeg";
 import agliolio from "./Shrimp-Aglio-Olio.jpeg";
-import menemen from "./Menemen.jpeg";
+import menemen from "./Menemen.jpeg"; 
 
-
-// Your App component
-function App() {
+/*function App() {
   return (
-    
       <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
         <Accordion.Header>1. Dessert: Fruit Topped Waffles </Accordion.Header>
@@ -41,10 +40,9 @@ function App() {
        <p>6. Pour the batter onto the preheated waffle iron and cook according to the manufacturer's instructions until the waffles are golden brown and crisp.</p>
        <p>7. Once the waffles are ready, transfer them to a plate and top with your favorite fresh fruits.</p>
        <p>8. Drizzle with maple syrup and enjoy your delicious waffle!</p>
-      
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      {/* <Accordion.Item eventKey="1">
         <Accordion.Header>2. Dessert: Cinnamon Rolls</Accordion.Header>
         <Accordion.Body>
         <img src= {cinnamonrolls} alt= "cinnamonrolls" width="250px"></img>
@@ -65,13 +63,12 @@ function App() {
           <p>8. Bake in the preheated oven for the time specified on the puff pastry package or until the rolls are golden brown.</p>
           <p>9. Optional: Mix powdered sugar with a small amount of milk to create a simple icing. Drizzle over the warm cinnamon rolls.</p>
           <p>10. Dig into your warm cinnamon rolls!</p>
-       
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>3. Dessert: Cheesecake</Accordion.Header>
         <Accordion.Body>
-        {/* <img src= {cheesecake} alt= "cheesecake" width="250px"></img> */}
+        <img src= {cheesecake} alt= "cheesecake" width="250px"></img>
          <h2>Ingredients:</h2>
          <p>2 cups graham cracker crumbs</p>
          <p>1/2 cup unsalted butter, melted</p>
@@ -97,7 +94,7 @@ function App() {
       
         <Accordion.Header>4. Dinner: Grilled Chicken and Salad</Accordion.Header>
         <Accordion.Body>
-        {/* <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img> */}
+        <img src= {chickensalad} alt= "Grilled Chicken and Salad" width="250px"></img>
           <h2>Ingredients:</h2>
           <p>2 boneless, skinless chicken breasts</p>
           <p>Salt and pepper to taste</p>
@@ -202,9 +199,178 @@ function App() {
         <p>11. Enjoy your freshly made Turkish Menemen!</p>
 
         </Accordion.Body>
-      </Accordion.Item>
+      </Accordion.Item> }
     </Accordion>
   );
+} */
+
+import Card from 'react-bootstrap/Card';
+import CardGroup from 'react-bootstrap/CardGroup';
+
+function cards() {
+  return (
+    <CardGroup class="cards">
+      <Card>
+        <Card.Img variant="top" src={menemen} width="150px"/>
+        <Card.Body>
+          <Card.Title>Menemen</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+        <a href="Menemen.html">
+        <Button>Go To Recipe</Button>
+        </a>
+        </Card.Body>
+      </Card>
+
+      <Card >
+        <Card.Img variant="top" src={waffles} height="150px"/>
+        <Card.Body>
+          <Card.Title>Belgian Waffles</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+          <a href="Waffles.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+
+      <Card>
+        <Card.Img variant="top" src={cheesecake} width="150px"/>
+        <Card.Body>
+          <Card.Title>Cheesecake</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+          <a href="Cheesecake.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+
+      <Card >
+        <Card.Img variant="top" src={chickensalad} width="150px"/>
+        <Card.Body>
+          <Card.Title>Chicken Salad</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+          <a href="Chickensalad.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+
+      <Card >
+        <Card.Img variant="top" src={kungpaochicken} width="150px"/>
+        <Card.Body>
+          <Card.Title>Kung Pao Chicken</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+          <a href="kungpaochicken.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+
+      <Card >
+        <Card.Img variant="top" src={cinnamonrolls} width="150px"/>
+        <Card.Body>
+          <Card.Title>Cinnamon Rolls</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+         <a href="CinnamonRolls.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+
+      <Card >
+        <Card.Img variant="top" src={agliolio} width="150px"/>
+        <Card.Body>
+          <Card.Title>Shrimp Aglio Olio</Card.Title>
+          <Card.Text>
+            Description of recipe
+          </Card.Text>
+          <a href="spagetti.html">
+            <Button>Go To Recipe</Button>
+          </a>
+        </Card.Body>
+      </Card>
+    </CardGroup>
+  );
+
+  // return (
+  //   <>
+
+  //   <div class="cards">
+  //     <img src = {menemen} width="150px" alt="Menemen"></img>
+  //     <h4>Menemen</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   {/* </div> */}
+
+  //   {/* <div class="cards"> */}
+  //     <img src={waffles} width="150px" alt="Waffles"></img>
+  //     <h4>Belgian Waffles</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   {/* </div> */}
+
+  //   <div class="cards">
+  //     <img src={cheesecake} width="150px" alt="Cheesecake"></img>
+  //     <h4>Cheesecake</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   </div>
+
+  //   {/* <div class="cards"> */}
+  //     <img src={chickensalad} width="150px" alt="Chicken Salad"></img>
+  //     <h4>Chicken Salad</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   {/* </div> */}
+
+  //   {/* <div class="cards"> */}
+  //     <img src={cinnamonrolls} width="150px" alt="Cinnamon Rolls"></img>
+  //     <h4>Cinnamon Rolls</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   {/* </div> */}
+
+  //   {/* <div class="cards"> */}
+  //     <img src={kungpaochicken} width="150px" alt="Kung Pao Chicken"></img>
+  //     <h4>Kung Pao Chicken</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   {/* </div> */}
+
+  //   {/* <div class="cards"> */}
+  //     <img src={agliolio} width="150px" alt="Shrimp Aglio Olio"></img>
+  //     <h4>Shrimp Aglio Olio</h4>
+  //     <p>recipe description here</p>
+  //     <a href="Menemen.html">
+  //       <button> link to recipe</button>
+  //     </a>
+  //   </div>
+
+  //   </>
+  // );
 }
 
-export default App;
+export default cards;
