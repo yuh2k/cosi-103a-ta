@@ -49,7 +49,12 @@ function cards() {
         <Card.Body>
           <Card.Title>Cheesecake</Card.Title>
           <Card.Text>
-            Description of recipe
+              Sweet and rich dessert
+              perfect for any occasion!
+              <p> 
+              <br></br> 
+              </p>
+              
           </Card.Text>
           <a href="Cheesecake.html">
             <Button>Go To Recipe</Button>
@@ -62,7 +67,8 @@ function cards() {
         <Card.Body>
           <Card.Title>Chicken Salad</Card.Title>
           <Card.Text>
-            Description of recipe
+            Delicious, healthy, and 
+            quick recipe for on the go!
           </Card.Text>
           <a href="Chickensalad.html">
             <Button>Go To Recipe</Button>

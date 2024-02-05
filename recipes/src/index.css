@@ -59,6 +59,7 @@ button {
   border-radius: 3px;
   padding: 10px;
   /* --bs-accordion-active-bg: #ff5c8d */
+  align-items: center;
 }
 
 button:hover {
@@ -67,11 +68,10 @@ button:hover {
 }
 
 .cards img {
-  max-width: 150px;
+  max-width: 100%;
   height: auto;
   display: block; 
-  min-width: 100%;
-  min-height: 70%;
+  min-height: 62%;
 }
 .cards {
   padding: 2%;
@@ -81,5 +81,11 @@ button:hover {
   border: solid 5px rgb(0, 0, 0);
   border-radius: 10px;
   margin:5%;
+  /* background-color: rgb(209, 175, 123); */
   /* text-align: center; */
 } 
+.card {
+  max-width: 13rem;
+
+
+}
