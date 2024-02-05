@@ -80,7 +80,7 @@ button:hover {
   gap: 1%;
   border: solid 5px rgb(0, 0, 0);
   border-radius: 10px;
-  margin:5%;
+  margin:0 5% 5% 5%;
   /* background-color: rgb(209, 175, 123); */
   /* text-align: center; */
 } 
