@@ -1,7 +1,7 @@
 // Import necessary dependencies
 import React from 'react';
 // import Accordion from 'react-bootstrap/Accordion';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 
 import waffles from "./Belgian-Waffles-4.jpg";
@@ -211,11 +211,17 @@ function cards() {
   return (
     <CardGroup class="cards">
       <Card>
-        <Card.Img variant="top" src={menemen} width="150px"/>
+        <Card.Img variant="top" src={menemen} />
         <Card.Body>
           <Card.Title>Menemen</Card.Title>
           <Card.Text>
-            Description of recipe
+            Scrambled eggs with 
+          </Card.Text>
+          <Card.Text>
+            tomatoes, peppers
+          </Card.Text>
+          <Card.Text>
+            and spices.
           </Card.Text>
         <a href="Menemen.html">
         <Button>Go To Recipe</Button>
@@ -224,7 +230,7 @@ function cards() {
       </Card>
 
       <Card >
-        <Card.Img variant="top" src={waffles} height="150px"/>
+        <Card.Img variant="top" src={waffles} />
         <Card.Body>
           <Card.Title>Belgian Waffles</Card.Title>
           <Card.Text>
@@ -237,7 +243,7 @@ function cards() {
       </Card>
 
       <Card>
-        <Card.Img variant="top" src={cheesecake} width="150px"/>
+        <Card.Img variant="top" src={cheesecake} />
         <Card.Body>
           <Card.Title>Cheesecake</Card.Title>
           <Card.Text>
@@ -250,7 +256,7 @@ function cards() {
       </Card>
 
       <Card >
-        <Card.Img variant="top" src={chickensalad} width="150px"/>
+        <Card.Img variant="top" src={chickensalad} />
         <Card.Body>
           <Card.Title>Chicken Salad</Card.Title>
           <Card.Text>
@@ -263,7 +269,7 @@ function cards() {
       </Card>
 
       <Card >
-        <Card.Img variant="top" src={kungpaochicken} width="150px"/>
+        <Card.Img variant="top" src={kungpaochicken} />
         <Card.Body>
           <Card.Title>Kung Pao Chicken</Card.Title>
           <Card.Text>
@@ -276,7 +282,7 @@ function cards() {
       </Card>
 
       <Card >
-        <Card.Img variant="top" src={cinnamonrolls} width="150px"/>
+        <Card.Img variant="top" src={cinnamonrolls} />
         <Card.Body>
           <Card.Title>Cinnamon Rolls</Card.Title>
           <Card.Text>
@@ -289,7 +295,7 @@ function cards() {
       </Card>
 
       <Card >
-        <Card.Img variant="top" src={agliolio} width="150px"/>
+        <Card.Img variant="top" src={agliolio} />
         <Card.Body>
           <Card.Title>Shrimp Aglio Olio</Card.Title>
           <Card.Text>
