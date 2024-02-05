@@ -23,7 +23,7 @@ function cards() {
         <Card.Body>
           <Card.Title>Menemen</Card.Title>
           <Card.Text>
-            Description of recipe
+            Scrambled eggs with tomatoes, peppers, and spices.
           </Card.Text>
         <a href="Menemen.html">
         <Button>Go To Recipe</Button>
