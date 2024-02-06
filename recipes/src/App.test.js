@@ -45,3 +45,12 @@ test('Chickensalad.html has correct title', () => {
   const title = document.querySelector('title');
   expect(title.textContent).toBe('Chicken Salad Recipe');
 });
+
+test('Menemen.html has correct title', () => {
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/Menemen.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+  
+  const title = document.querySelector('title');
+  expect(title.textContent).toBe('Menemen Recipe');
+}); 
