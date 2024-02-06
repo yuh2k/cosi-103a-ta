@@ -55,3 +55,12 @@ test('chickensalad.html contains specific text', () => {
   const specificText = 'Chicken Salad Recipe';
   expect(document.body.textContent).toContain(specificText);
 });
+
+test('kungpaochicken.html contains specific text', () => {
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/kungpaochicken.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+
+  const specificText = 'Sichuan Kung Pao Chicken 宫保鸡';
+  expect(document.body.textContent).toContain(specificText);
+});
