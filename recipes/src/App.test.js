@@ -23,14 +23,18 @@ test('Chickensalad.html has correct title', () => {
   expect(title.textContent).toBe('Chicken Salad Recipe');
 });
 
-test('Menemen.html has correct title', () => {
+test('Menemen.html has correct content', () => {
   const html = fs.readFileSync(path.resolve(__dirname, '../public/Menemen.html'), 'utf8');
   const dom = new JSDOM(html);
   const { document } = dom.window;
   
   const title = document.querySelector('title');
   expect(title.textContent).toBe('Menemen Recipe');
+
+  const heading= document.querySelector("h1");
+  expect(heading.textContent).toBe("Menemen Recipe");
 }); 
+
 test('chickensalad.html contains specific text', () => {
   const html = fs.readFileSync(path.resolve(__dirname, '../public/Chickensalad.html'), 'utf8');
   const dom = new JSDOM(html);
@@ -39,6 +43,7 @@ test('chickensalad.html contains specific text', () => {
   // Check if the document contains a specific text
   const specificText = 'Chicken Salad Recipe';
   expect(document.body.textContent).toContain(specificText);
+});
   
 test('renders the Cinnamon Rolls recipe component with correct content', () => {
   //const { getByText } = render(<CinnamonRollsRecipe />);
