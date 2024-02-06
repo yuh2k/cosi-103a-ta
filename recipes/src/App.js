@@ -109,7 +109,7 @@ function cards() {
           <Card.Text>
             Description of recipe
           </Card.Text>
-          <a href="spagetti.html">
+          <a href="spaghetti.html">
             <Button>Go To Recipe</Button>
           </a>
         </Card.Body>
