@@ -1,28 +1,5 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import App from './App';
-
-// test('renders Accordion with correct default active key', () => {
-//   const { getByText } = render(<App />);
-  
-//   // Check if the Accordion Header is present
-//   const accordionHeader = getByText(/1. Dessert: Fruit Topped Waffles/i);
-//   expect(accordionHeader).toBeInTheDocument();
-
-
-// });
-
-// test('renders Accordion components with specific content', () => {
-//   const { getByText } = render(<App />);
-
-//   // Check if specific headers and content are present in the Accordion
-//   expect(getByText('5. Lunch: Chicken Shawarma')).toBeInTheDocument();
-//   expect(getByText('2 tablespoons olive oil')).toBeInTheDocument();
-//   expect(getByText('7. Breakfast: Menemen')).toBeInTheDocument();
-//   expect(getByText('4 eggs')).toBeInTheDocument();
-
-// });
-
 const fs = require('fs');
 const path = require('path');
 const { JSDOM } = require('jsdom');
@@ -54,6 +31,27 @@ test('chickensalad.html contains specific text', () => {
   // Check if the document contains a specific text
   const specificText = 'Chicken Salad Recipe';
   expect(document.body.textContent).toContain(specificText);
+  
+test('renders the Cinnamon Rolls recipe component with correct content', () => {
+  //const { getByText } = render(<CinnamonRollsRecipe />);
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/CinnamonRolls.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+
+  const title = document.querySelector('title');
+  expect(title.textContent).toBe("Cinnamon Rolls");
+
+  const heading= document.querySelector("h1");
+  expect(heading.textContent).toBe("Cinnamon Rolls");
+
+  
+  const heading2 ="Ingredients:";
+  expect(document.body.textContent).toContain(heading2);
+
+  const heading2second ="Instructions:";
+  expect(document.body.textContent).toContain(heading2second);
+
+
 });
 
 test('kungpaochicken.html contains specific text', () => {
