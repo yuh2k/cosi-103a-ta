@@ -54,7 +54,6 @@ test('renders the Cinnamon Rolls recipe component with correct content', () => {
 
 });
 
-
 test('test Cinnamon Rolls', () => {
   //const { getByText } = render(<CinnamonRollsRecipe />);
   const html = fs.readFileSync(path.resolve(__dirname, '../public/CinnamonRolls.html'), 'utf8');
@@ -76,7 +75,6 @@ test('test Cinnamon Rolls', () => {
   
 });
 
-
 test(' test waffles', () => {
   //const { getByText } = render(<CinnamonRollsRecipe />);
   const html = fs.readFileSync(path.resolve(__dirname, '../public/Waffles.html'), 'utf8');
@@ -95,5 +93,15 @@ test(' test waffles', () => {
 
   const heading2second ="Instructions:";
   expect(document.body.textContent).toContain(heading2second);
-  
+ 
+});
+
+test('kungpaochicken.html contains specific text', () => {
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/kungpaochicken.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+
+  const specificText = 'Sichuan Kung Pao Chicken 宫保鸡';
+  expect(document.body.textContent).toContain(specificText);
+
 });
