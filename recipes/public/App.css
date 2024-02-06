@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menemen {
+  margin-left:2%;
+  margin-top: 2%;
+  padding: 2%;
+
+  /* background-color: #fff8e7; */
+}
+p {
+  padding: 2px;
+}
+h2 {
+  margin: 10px;
+}
+button {
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(37, 101, 157);
+  background-color: rgb(122, 198, 242);
+  cursor: pointer;
+  display:inline-block;
+  border-radius: 3px;
+  padding: 8px;
+}
