@@ -23,6 +23,14 @@ test('Chickensalad.html has correct title', () => {
   expect(title.textContent).toBe('Chicken Salad Recipe');
 });
 
+test('Menemen.html has correct title', () => {
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/Menemen.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+  
+  const title = document.querySelector('title');
+  expect(title.textContent).toBe('Menemen Recipe');
+}); 
 test('chickensalad.html contains specific text', () => {
   const html = fs.readFileSync(path.resolve(__dirname, '../public/Chickensalad.html'), 'utf8');
   const dom = new JSDOM(html);
