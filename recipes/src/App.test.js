@@ -31,7 +31,7 @@ test('chickensalad.html contains specific text', () => {
   // Check if the document contains a specific text
   const specificText = 'Chicken Salad Recipe';
   expect(document.body.textContent).toContain(specificText);
-  
+});
 test('renders the Cinnamon Rolls recipe component with correct content', () => {
   //const { getByText } = render(<CinnamonRollsRecipe />);
   const html = fs.readFileSync(path.resolve(__dirname, '../public/CinnamonRolls.html'), 'utf8');
@@ -52,4 +52,48 @@ test('renders the Cinnamon Rolls recipe component with correct content', () => {
   expect(document.body.textContent).toContain(heading2second);
 
 
+});
+
+
+test('test Cinnamon Rolls', () => {
+  //const { getByText } = render(<CinnamonRollsRecipe />);
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/CinnamonRolls.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+
+  const title = document.querySelector('title');
+  expect(title.textContent).toBe("Cinnamon Rolls");
+
+  const heading= document.querySelector("h1");
+  expect(heading.textContent).toBe("Cinnamon Rolls");
+
+  
+  const heading2 ="Ingredients:";
+  expect(document.body.textContent).toContain(heading2);
+
+  const heading2second ="Instructions:";
+  expect(document.body.textContent).toContain(heading2second);
+  
+});
+
+
+test(' test waffles', () => {
+  //const { getByText } = render(<CinnamonRollsRecipe />);
+  const html = fs.readFileSync(path.resolve(__dirname, '../public/Waffles.html'), 'utf8');
+  const dom = new JSDOM(html);
+  const { document } = dom.window;
+
+  const title = document.querySelector('title');
+  expect(title.textContent).toBe("Waffles");
+
+  const heading= document.querySelector("h1");
+  expect(heading.textContent).toBe("Fruit Topped Waffles");
+
+  
+  const heading2 ="Ingredients:";
+  expect(document.body.textContent).toContain(heading2);
+
+  const heading2second ="Instructions:";
+  expect(document.body.textContent).toContain(heading2second);
+  
 });
