@@ -32,12 +32,12 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <div>
+      {/* <div>
         <img
           key={contact.avatar}
           src={contact.avatar || null}
         />
-      </div>
+      </div> */}
 
       <div>
         <h1>
