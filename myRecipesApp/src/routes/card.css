@@ -1,0 +1,21 @@
+.cards {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1%;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin:0 5% 5% 5%;
+    /* background-color: rgb(209, 175, 123); */
+    /* text-align: center; */
+  } 
+.card {
+    max-width: 13rem;
+}
+  
+.cards img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    min-height: 62%;
+}
