@@ -1,4 +1,4 @@
-import spaghet from "./images/Menemen.jpeg";
+import spaghet from "./images/spaghetti.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -7,7 +7,7 @@ const Spaghetti = () => {
       <div>
         <title>Shrimp-Aglio-Olio Recipe</title>
         <h1>Shrimp-Aglio-Olio Recipe</h1>
-          <img src={spaghet} alt="Shrimp-Aglio-Olio"width="300px"/>
+          <img class="page_img" src={spaghet} alt="Shrimp-Aglio-Olio"/>
           <h2>Ingredients:</h2>
           <ul>
             <li>8 oz spaghetti</li>

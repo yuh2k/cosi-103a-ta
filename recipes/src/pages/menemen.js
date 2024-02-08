@@ -7,7 +7,9 @@ const Menemen = () => {
       <div>
         <title>Menemen Recipe</title>
         <h1>Menemen Recipe</h1>
-          <img src={mene} alt="Menemen"width="300px"/>
+        
+          <img class="page_img"src={mene} alt="Menemen"/>
+
           <h2>Ingredients:</h2>
           <ul>
             <li>2 tablespoons olive oil</li>

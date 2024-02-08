@@ -6,7 +6,8 @@ const Cheesecake = () => {
     return (
       <div>
         <h1>Sichuan Kung Pao Chicken 宫保鸡 Recipe</h1>
-          <img src={kungpaochicken} alt="kung pao chicken"width="300px"/>
+        
+          <img class="page_img" src={kungpaochicken} alt="kung pao chicken"/>
           <h2>Ingredients:</h2>
           <ul>
             <li>1 lb boneless, skinless chicken breasts, cut into bite-sized pieces</li>

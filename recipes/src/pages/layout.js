@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Layout = () => {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light" fixed="top" >
+      <Navbar bg="light" data-bs-theme="light" sticky="top" >
         <Container>
           <Navbar.Brand to="/">😋Tasty Recipes</Navbar.Brand>
           <Nav className="me-auto">

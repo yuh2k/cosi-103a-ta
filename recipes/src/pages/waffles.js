@@ -5,7 +5,7 @@ const Waffles = () => {
     return (
       <div>
         <h1>Waffles Recipe</h1>
-          <img src={waff} alt="Waffles"width="300px"/>
+            <img class="page_img"src={waff} alt="Waffles"width="300px"/>
           <h2> Ingredients:</h2>
           <ul>
               <li>1 cup all-purpose flour </li>

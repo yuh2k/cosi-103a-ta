@@ -5,7 +5,9 @@ const Cheesecake = () => {
     return (
       <div>
         <h1>Cheesecake Recipe</h1>
-          <img src={cheesecake} alt="cheesecake"width="300px"/>
+        
+          <img class="page_img"src={cheesecake} alt="cheesecake"/>
+    
           <h2>Ingredients:</h2>
           <ul>
             <li>2 cups graham cracker crumbs</li>

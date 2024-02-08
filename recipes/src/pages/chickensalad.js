@@ -6,7 +6,9 @@ const Chickensalad = () => {
     return (
       <div>
         <h1>Cheesecake Recipe</h1>
-          <img src={salad} alt="chicken salad"width="300px"/>
+  
+          <img class="page_img"src={salad} alt="chicken salad"/>
+    
           <h2>Ingredients:</h2>
           <ul>
             <li>2 boneless, skinless chicken breasts</li>
