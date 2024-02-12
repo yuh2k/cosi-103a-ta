@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import tardis from "./images/tardis.jpg";
 import teampage from "./images/teamimage.jpg";
 import othello from  "./images/othello.jpg";
 import { useContext } from 'react';
@@ -74,6 +74,24 @@ const Team = () => {
             </p>
             <p>
             When I'm not stressed about CS assignments and problems sets, I like to spend most of my time lazing around!
+            </p>
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+      <Card>
+        <Card.Header>
+          <ContextAwareToggle eventKey="1">Meet Tardis!</ContextAwareToggle>
+        
+        </Card.Header>
+        <Accordion.Collapse eventKey="1">
+          <Card.Body>
+          <img class="page_img"src={tardis} alt="tardis" width="400px"/>
+          
+            <p>
+            Hi! I'm Tardis
+            </p>
+            <p>
+            I travel in time and eat food.
             </p>
           </Card.Body>
         </Accordion.Collapse>

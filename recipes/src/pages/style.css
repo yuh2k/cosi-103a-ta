@@ -1,13 +1,13 @@
 h1{
     text-align:center; 
     font-family:serif;
-    color:darkblue; 
+    color:rgb(139, 0, 28); 
     font-weight: bold;
   }
   h2{
     /* float:right;   */
     font-family:serif;
-    color:darkblue; 
+    color:rgb(173, 50, 110); 
     font-weight: bold;
   }
   .page_img{
@@ -51,7 +51,7 @@ cards {
 Button {
   text-decoration: none;
   color: rgb(137, 198, 251);
-  background-color: rgb(74, 170, 226);
+  background-color: rgb(226, 74, 145);
   cursor: pointer;
   display:inline-block;
   border-radius: 3px;
