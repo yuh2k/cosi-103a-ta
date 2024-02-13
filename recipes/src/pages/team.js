@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import catdefault from "./images/catdefault.jpg";
 import tardis from "./images/tardis.jpg";
 import teampage from "./images/teamimage.jpg";
 import othello from  "./images/othello.jpg";
@@ -80,10 +80,10 @@ const Team = () => {
       </Card>
       <Card>
         <Card.Header>
-          <ContextAwareToggle eventKey="1">Meet Tardis!</ContextAwareToggle>
+          <ContextAwareToggle eventKey="2">Meet Tardis!</ContextAwareToggle>
         
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="2">
           <Card.Body>
           <img class="page_img"src={tardis} alt="tardis" width="400px"/>
           
@@ -96,7 +96,28 @@ const Team = () => {
           </Card.Body>
         </Accordion.Collapse>
       </Card>
+      
+    <Card>
+        <Card.Header>
+          <ContextAwareToggle eventKey="3">Meet V!</ContextAwareToggle>
+        
+        </Card.Header>
+        <Accordion.Collapse eventKey="3">
+          <Card.Body>
+          <img class="page_img"src={catdefault} alt="v" width="300px"/>
+          
+            <p>
+            Hi!
+            </p>
+            <p>
+            
+            </p>
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
     </Accordion>
+
+      
 
       </div>
       
