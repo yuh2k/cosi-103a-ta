@@ -57,6 +57,6 @@ Button {
   border-radius: 3px;
   padding: 10px;
   align-items: center;
-  position:absolute;
+  /* position:absolute; */
 
 }
