@@ -4,16 +4,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import AddTask from './grocerylist/addgroceries.js';
-import TaskList from './grocerylist/grocerylist.js';
-import { TasksProvider } from './grocerylist/grocerycontext.js';
+import GroceryList from "./grocerylist/grocerylist";
 
+export default function Layout() {
+  
 
-
-function Layout() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  
 // Add a navigation bar to the layout
   return (
       <>
@@ -26,20 +26,16 @@ function Layout() {
               <Nav.Link variant="primary" onClick={handleShow}>
                 Grocery List
               </Nav.Link>
-            <Offcanvas show={show} onHide={handleClose}>
-           
+              <Offcanvas show={show} onHide={handleClose}>
               <Offcanvas.Header closeButton>
-              <Offcanvas.Title>Grocery List</Offcanvas.Title>
+                <p></p>
               </Offcanvas.Header>
-            
-            <Offcanvas.Body>
-                <TasksProvider>
-                <AddTask />
-                <TaskList />
-              </TasksProvider>
-            </Offcanvas.Body>
+              <Offcanvas.Body>
+                  <GroceryList >
+                  </GroceryList>
+              </Offcanvas.Body>
             </Offcanvas>
-
+          
             </Nav>
           </Container>
         </Navbar>
@@ -48,4 +44,3 @@ function Layout() {
       
     )
   };
-export default Layout;
