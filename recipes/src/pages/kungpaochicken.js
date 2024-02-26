@@ -1,5 +1,8 @@
 import kungpaochicken from "./images/kungpaochicken.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 
 const Cheesecake = () => {
@@ -37,6 +40,9 @@ const Cheesecake = () => {
             <p>8. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.</p>
             <p>9. Once chilled, run a knife around the edge of the pan before releasing the springform sides.</p>
             <p>10. Slice and serve your delicious homemade cheesecake!</p>
+            <Link to="/cookingModepages/kungpaoCooking">
+              <Button>Cooking Mode</Button>
+            </Link>
       </div>
     )
   };

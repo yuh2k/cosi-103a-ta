@@ -1,5 +1,9 @@
 import mene from "./images/Menemen.jpeg";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
+import cookingmenemen from "./cookingModepages/menemenCooking.js";
 
 
 const Menemen = () => {
@@ -33,6 +37,9 @@ const Menemen = () => {
           <p>9. Cover the skillet and cook for a few more minutes until the egg whites are fully cooked, or cook longer if you prefer firmer yolks.</p>
           <p>10. Sprinkle chopped fresh parsley over the top and serve immediately.</p>
           <p>11. Enjoy your freshly made Turkish Menemen!</p>
+          <Link to="/cookingModepages/menemenCooking">
+              <Button>Cooking Mode</Button>
+            </Link>
           
       </div>
     )
