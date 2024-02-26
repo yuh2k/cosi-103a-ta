@@ -1,5 +1,8 @@
 import salad from "./images/chickensalad.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 
 const Chickensalad = () => {
@@ -30,6 +33,9 @@ const Chickensalad = () => {
             <p>7. Drizzle balsamic vinaigrette dressing over the salad and chicken.</p>
             <p>8. Toss everything together gently to combine.</p>
             <p>9. Serve immediately and enjoy!</p>
+            <Link to="/cookingModepages/chickensaladCooking">
+              <Button>Cooking Mode</Button>
+            </Link>
 
       </div>
     )
