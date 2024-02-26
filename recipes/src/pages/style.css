@@ -49,14 +49,10 @@ cards {
   text-align: left;
 }
 Button {
-  text-decoration: none;
-  color: rgb(137, 198, 251);
-  background-color: rgb(226, 74, 145);
+  color: violet;
   cursor: pointer;
   display:inline-block;
   border-radius: 3px;
   padding: 10px;
   align-items: center;
-  position:absolute;
-
 }
