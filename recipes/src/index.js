@@ -8,7 +8,15 @@ import Cheesecake from "./pages/cheesecake.js";
 import ChickenSalad from "./pages/chickensalad.js";
 import KungPaoChicken from "./pages/kungpaochicken.js";
 import Spaghetti from "./pages/spaghetti.js";
+
 import CinnamonRolls from "./pages/cinnamonrolls.js";
+import CheesecakeCooking from "./pages/cookingModepages/cheesecakeCooking.js";
+import ChickensaladCooking from "./pages/cookingModepages/chickensaladCooking.js";
+import CinnamonrollsCooking from "./pages/cookingModepages/cinnamonrollsCooking.js";
+import SpaghettiCooking from "./pages/cookingModepages/spaghettiCooking.js";
+import MenemenCooking from "./pages/cookingModepages/menemenCooking.js";
+import KungpaoCooking from "./pages/cookingModepages/kungpaoCooking.js";
+
 
 import Team from "./pages/team.js";
 import NoPage from "./pages/nopage.js";
@@ -29,7 +37,16 @@ export default function App() {
           <Route path="spaghetti" element={<Spaghetti />} />
           <Route path="cinnamonrolls" element={<CinnamonRolls />} />
           <Route path="Team" element={<Team />} />
+          <Route path= "cheesecakeCooking" element ={<CheesecakeCooking />} />
+          <Route path= "chickensaladCooking" element ={<ChickensaladCooking/>} />
+          <Route path= "cinnamonrollsCooking" element ={<CinnamonrollsCooking />} />
+          <Route path= "spaghettiCooking" element ={<SpaghettiCooking />} />
+          <Route path= "kungpaoCooking" element ={<KungpaoCooking />} />
+          <Route path= "wafflesCooking" element ={<WafflesCooking />} />
+          <Route path= "menemenCooking" element ={<MenemenCooking />} />
+
           <Route path="*" element={<NoPage />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

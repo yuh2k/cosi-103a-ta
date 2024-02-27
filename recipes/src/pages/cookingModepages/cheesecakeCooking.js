@@ -1,12 +1,17 @@
-import React from 'react';
+import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import cheesecake from 'images/cheesecake.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const UncontrolledExample=  () =>{
+function ControlledCarousel() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+
   return (
-    <Carousel>
+    <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <ExampleCarouselImage text="First slide" />
         <Carousel.Caption>
@@ -34,4 +39,4 @@ const UncontrolledExample=  () =>{
   );
 }
 
-export default UncontrolledExample;
+export default ControlledCarousel;
