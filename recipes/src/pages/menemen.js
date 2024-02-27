@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
-import cookingmenemen from "./cookingModepages/menemenCooking.js";
 
 
 const Menemen = () => {
