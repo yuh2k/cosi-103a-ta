@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Chickensalad = () => {
     return (
       <div>
-        <h1>Cheesecake Recipe</h1>
+        <h1>Chicken Salad Recipe</h1>
   
           <img class="page_img"src={salad} alt="chicken salad"/>
     
