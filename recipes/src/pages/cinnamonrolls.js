@@ -4,31 +4,29 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
-const Cheesecake = () => {
+const CinnamonRolls = () => {
     return (
       <div>
-        <h1>Cheesecake Recipe</h1>
+        <h1>Cinnamon Rolls Recipe</h1>
           <img class="page_img"src={cinnamon} alt="cinnamonrolls"/>
   
           <h2>Ingredients:</h2>
-          <ul>
-            <li>1 sheet of store-bought puff pastry</li>
-            <li>2 tablespoons melted butter</li>
-            <li> 1/4 cup of brown sugar</li>
-            <li>1 teaspoon ground cinnamon</li>
-            <li>Icing (optional): Powdered sugar and a little milk</li>
-          </ul>
+          <p>1 sheet of store-bought puff pastry</p>
+          <p>2 tablespoons melted butter</p>
+          <p>1/4 cup brown sugar</p>
+          <p>1 teaspoon ground cinnamon</p>
+          <p>Icing (optional): Powdered sugar and a little milk</p>
           <h2>Instructions:</h2>
-            <p>1. Preheat your oven to 325°F (163°C).</p>
-            <p>2. Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to create the crust.</p>
-            <p>3. Bake the crust in the preheated oven for 10 minutes. Remove and let it cool.</p>
-            <p>4. In a large mixing bowl, beat the softened cream cheese until smooth. Add sugar and vanilla extract, continue beating until well combined.</p>
-            <p>5. Add eggs one at a time, beating well after each addition. Mix in the sour cream until the batter is smooth.</p>
-            <p>6. Pour the cream cheese mixture over the cooled crust in the springform pan.</p>
-            <p>7. Bake in the preheated oven for 50-60 minutes or until the center is set. The edges should be slightly golden, and the center should have a slight jiggle.</p>
-            <p>8. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.</p>
-            <p>9. Once chilled, run a knife around the edge of the pan before releasing the springform sides.</p>
-            <p>10. Slice and serve your delicious homemade cheesecake!</p>
+          <p>1. Preheat your oven according to the puff pastry package instructions.</p>
+          <p>2. Roll out the puff pastry sheet on a lightly floured surface</p>
+          <p>3. Brush the melted butter over the entire surface of the pastry.</p>
+          <p>4. Sprinkle brown sugar evenly over the buttered pastry.</p>
+          <p>5. Dust the cinnamon over the sugar layer.</p>
+          <p>6. Roll the pastry sheet tightly into a log.</p>
+          <p>7. Cut the log into 1-inch slices and place them on a baking sheet lined with parchment paper.</p>
+          <p>8. Bake in the preheated oven for the time specified on the puff pastry package or until the rolls are golden brown.</p>
+          <p>9. Optional: Mix powdered sugar with a small amount of milk to create a simple icing. Drizzle over the warm cinnamon rolls.</p>
+          <p>10. Dig into your warm cinnamon rolls!</p>
             <Link to="/cinnamonrollsCooking">
               <Button>Cooking Mode</Button>
             </Link>
@@ -36,4 +34,4 @@ const Cheesecake = () => {
     )
   };
   
-  export default Cheesecake;
+  export default CinnamonRolls; 

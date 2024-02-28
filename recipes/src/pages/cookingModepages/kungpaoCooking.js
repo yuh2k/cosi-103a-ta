@@ -14,72 +14,132 @@ function ControlledCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="First slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h3>Preheat</h3>
           <p>Preheat your oven to 325°F (163°C)</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Second slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>Mix Together</h3>
           <p>Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to create the crust</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Third slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Bake</h3>
           <p>Bake the crust in the preheated oven for 10 minutes. Remove and let it cool </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Fourth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Mix Some More</h3>
           <p>In a large mixing bowl, beat the softened cream cheese until smooth. Add sugar and vanilla extract, continue beating until well combined</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Fifth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Eggs!</h3>
           <p>Add eggs one at a time, beating well after each addition. Mix in the sour cream until the batter is smooth</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Sixth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Sixth slide label</h3>
+          <h3>Add Cream</h3>
           <p>Pour the cream cheese mixture over the cooled crust in the springform pan</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Seventh slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Seventh slide label</h3>
+          <h3>Bake Some More</h3>
           <p> Bake in the preheated oven for 50-60 minutes or until the center is set. The edges should be slightly golden, and the center should have a slight jiggle </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Eighth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Eighth slide label</h3>
+          <h3>Let Them Cool</h3>
           <p> Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Ninth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Ninth slide label</h3>
+          <h3>Remove from Pan</h3>
           <p> Once chilled, run a knife around the edge of the pan before releasing the springform sides </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* <ExampleCarouselImage text="Tenth slide" /> */}
+      <img
+          className="d-block w-100"
+          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
+          src= "oven.jpeg"
+          alt="First Slide"
+          style={{ width: '800px', height: '400px' }}
+        />
         <Carousel.Caption>
-          <h3>Tenth slide label</h3>
+          <h3>Enjoy!</h3>
           <p> Slice and serve your delicious homemade cheesecake! </p>
         </Carousel.Caption>
       </Carousel.Item>
