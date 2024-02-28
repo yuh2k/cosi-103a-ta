@@ -33,7 +33,7 @@ const Chickensalad = () => {
             <p>7. Drizzle balsamic vinaigrette dressing over the salad and chicken.</p>
             <p>8. Toss everything together gently to combine.</p>
             <p>9. Serve immediately and enjoy!</p>
-            <Link to="/cookingModepages/chickensaladCooking">
+            <Link to="/chickensaladCooking">
               <Button>Cooking Mode</Button>
             </Link>
 

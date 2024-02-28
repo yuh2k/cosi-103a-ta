@@ -40,7 +40,7 @@ export default function App() {
           <Route path="Team" element={<Team />} />
 
           <Route path= "cheesecakeCooking" element ={<CheesecakeCooking />} />
-          <Route path= "chickensaladCooking" element ={<ChickensaladCooking/>} />
+          <Route path= "chickensaladCooking" element ={<ChickensaladCooking />} />
           <Route path= "cinnamonrollsCooking" element ={<CinnamonrollsCooking />} />
           <Route path= "spaghettiCooking" element ={<SpaghettiCooking />} />
           <Route path= "kungpaoCooking" element ={<KungpaoCooking />} />
