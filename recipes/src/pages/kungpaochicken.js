@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 
 
-const Cheesecake = () => {
+const KungPaoChicken = () => {
     return (
       <div>
         <h1>Sichuan Kung Pao Chicken 宫保鸡 Recipe</h1>
@@ -30,16 +30,14 @@ const Cheesecake = () => {
             <li>Cooked rice for serving</li>
           </ul>
           <h2>Instructions:</h2>
-            <p>1. Preheat your oven to 325°F (163°C).</p>
-            <p>2. Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to create the crust.</p>
-            <p>3. Bake the crust in the preheated oven for 10 minutes. Remove and let it cool.</p>
-            <p>4. In a large mixing bowl, beat the softened cream cheese until smooth. Add sugar and vanilla extract, continue beating until well combined.</p>
-            <p>5. Add eggs one at a time, beating well after each addition. Mix in the sour cream until the batter is smooth.</p>
-            <p>6. Pour the cream cheese mixture over the cooled crust in the springform pan.</p>
-            <p>7. Bake in the preheated oven for 50-60 minutes or until the center is set. The edges should be slightly golden, and the center should have a slight jiggle.</p>
-            <p>8. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.</p>
-            <p>9. Once chilled, run a knife around the edge of the pan before releasing the springform sides.</p>
-            <p>10. Slice and serve your delicious homemade cheesecake!</p>
+        <p>1. In a bowl, combine soy sauce, rice vinegar, hoisin sauce, and cornstarch. Add the chicken pieces and marinate for about 15-20 minutes.</p>
+        <p>2. Heat vegetable oil in a wok or large skillet over medium-high heat. Add minced garlic and ginger, sauté for about 30 seconds until fragrant.</p>
+        <p>3. Add marinated chicken to the wok and stir-fry until browned and cooked through.</p>
+        <p>4. Add diced red and green bell peppers, peanuts, and sliced green onions.</p>
+        <p>5. Pour in water and chili garlic sauce. Stir-fry for another 1-2 minutes until the sauce thickens.</p>
+        <p>6. Serve the Kung Pao chicken with cooked rice.</p>
+        <p>7. Serve the Kung Pao Chicken over cooked rice and garnish with additional green onions and peanuts if desired.</p>
+        <p>8. Dig in to your home cooked Sichuan Kung Pao Chicken!</p>
             <Link to="/cookingModepages/kungpaoCooking">
               <Button>Cooking Mode</Button>
             </Link>
@@ -47,4 +45,4 @@ const Cheesecake = () => {
     )
   };
   
-  export default Cheesecake;
+  export default KungPaoChicken;
