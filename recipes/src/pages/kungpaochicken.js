@@ -38,7 +38,7 @@ const KungPaoChicken = () => {
         <p>6. Serve the Kung Pao chicken with cooked rice.</p>
         <p>7. Serve the Kung Pao Chicken over cooked rice and garnish with additional green onions and peanuts if desired.</p>
         <p>8. Dig in to your home cooked Sichuan Kung Pao Chicken!</p>
-            <Link to="/cookingModepages/kungpaoCooking">
+            <Link to="/kungpaoCooking">
               <Button>Cooking Mode</Button>
             </Link>
       </div>
