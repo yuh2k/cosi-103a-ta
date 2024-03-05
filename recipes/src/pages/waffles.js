@@ -31,7 +31,7 @@ const Waffles = () => {
             <p>6. Pour the batter onto the preheated waffle iron and cook according to the manufacturer's instructions until the waffles are golden brown and crisp.</p>
             <p>7. Once the waffles are ready, transfer them to a plate and top with your favorite fresh fruits.</p>
             <p>8. Drizzle with maple syrup and enjoy your delicious waffle!</p>
-            <Link to="/cookingModepages/wafflesCooking">
+            <Link to="/wafflesCooking">
               <Button>Cooking Mode</Button>
             </Link>
       </div>

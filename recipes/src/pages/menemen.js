@@ -36,7 +36,7 @@ const Menemen = () => {
           <p>9. Cover the skillet and cook for a few more minutes until the egg whites are fully cooked, or cook longer if you prefer firmer yolks.</p>
           <p>10. Sprinkle chopped fresh parsley over the top and serve immediately.</p>
           <p>11. Enjoy your freshly made Turkish Menemen!</p>
-          <Link to="/cookingModepages/menemenCooking">
+          <Link to="/menemenCooking">
               <Button>Cooking Mode</Button>
             </Link>
           
