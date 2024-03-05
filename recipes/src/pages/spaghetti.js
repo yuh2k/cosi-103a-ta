@@ -30,7 +30,7 @@ const Spaghetti = () => {
             <p>5. Squeeze fresh lemon juice over the dish and sprinkle with chopped parsley.</p>
             <p>6. Season with salt and pepper.</p>
             <p>7. Serve your delicious Spaghetti Aglio e Olio with Shrimp!</p>
-            <Link to="/cookingModepages/spaghettiCooking">
+            <Link to="/spaghettiCooking">
               <Button>Cooking Mode</Button>
             </Link>
       </div>

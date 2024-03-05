@@ -1,16 +1,8 @@
 // import React from 'react';
-import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
   return (
     <Carousel>
       <Carousel.Item>
