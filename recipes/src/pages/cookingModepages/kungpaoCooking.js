@@ -4,13 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ControlledCarousel() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
-
+function kungpaoCooking() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -147,4 +141,4 @@ function ControlledCarousel() {
   );
 }
 
-export default ControlledCarousel;
+export default kungpaoCooking;
