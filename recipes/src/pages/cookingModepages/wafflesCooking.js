@@ -9,9 +9,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://content.instructables.com/FJH/668J/IM7YSOOA/FJH668JIM7YSOOA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Preheat Iron</h3>
@@ -22,9 +22,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://images.squarespace-cdn.com/content/v1/5a44331764b05f1c833e4d32/1568388150952-GXYI0WRLV3N2GG779SQ3/IMG_1261.jpg"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Mix Together</h3>
@@ -35,9 +35,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://images.squarespace-cdn.com/content/v1/5a44331764b05f1c833e4d32/1568388201178-WCEXBK98LRSODM1DJOD3/IMG_1256.jpg"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Mix Some More</h3>
@@ -48,9 +48,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://i2.wp.com/bakerbettie.com/wp-content/uploads/2018/04/how-to-make-muffins-3-280x280.jpg"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Combine ingredients</h3>
@@ -61,9 +61,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://farm3.staticflickr.com/2907/14551074185_3c6c1e6303.jpg"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Grease Iron</h3>
@@ -74,9 +74,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://akm-img-a-in.tosshub.com/sites/dailyo//resources/202308/output-z9b2to240823115638.gif"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Make Waffles</h3>
@@ -87,9 +87,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://www.krusteaz.com/wp-content/uploads/2021/06/KR_St_BelgianWaffle_5_6141.jpg"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Add Toppings</h3>
@@ -100,9 +100,9 @@ function ControlledCarousel() {
       <img
           className="d-block w-100"
           //src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          src= "oven.jpeg"
+          src= "https://www.dish-works.com/wp-content/uploads/2019-8_PAE_Waffle_1920_GIF_v2-SM.gif"
           alt="First Slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: "auto" , height: '700px' }}
         />
         <Carousel.Caption>
           <h3>Enjoy</h3>
