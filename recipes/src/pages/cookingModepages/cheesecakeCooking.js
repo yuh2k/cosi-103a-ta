@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function DarkVariantExample() {
+
+function CheesecakeCooking() {
   return (
     <Carousel data-bs-theme="dark">
        <Carousel.Item>
@@ -21,7 +22,7 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.wikihow.com/images/thumb/a/a6/Preheat-an-Oven-Step-12-Version-3.jpg/v4-460px-Preheat-an-Oven-Step-12-Version-3.jpg"
+          src="https://img.taste.com.au/6NB67DIX/taste/2016/11/how-to-make-the-perfect-cheesecake-base-47605-1.jpg"
           alt="Second slide"
           style={{ width: 'auto', height: '800px' }}
         />
@@ -36,9 +37,9 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
+          src="https://www.onceuponachef.com/images/2017/12/Ny-Style-Cheesecake-15.jpg"
           alt="Third slide"
-          style={{ width: '800px', height: '400px' }}
+          style={{ width: 'auto', height: '800px' }}
         />
         <Carousel.Caption>
           <h5>Bake</h5>
@@ -50,9 +51,9 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-          alt="Third slide"
-          style={{ width: '800px', height: '400px' }}
+          src="https://assets.epicurious.com/photos/62bdc36d9de40a39de6bd598/16:9/w_6270,h_3527,c_limit/Cheesecake_RECIPE_062922_36317.jpg"
+          alt="Fourth slide"
+          style={{ width: 'auto', height: '800px' }}
         />
         <Carousel.Caption>
           <h5>Serve</h5>
@@ -64,9 +65,9 @@ function DarkVariantExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-          alt="Third slide"
-          style={{ width: '800px', height: '400px' }}
+          src="https://hips.hearstapps.com/hmg-prod/images/classic-cheesecake-index-642c57b4450c9.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*"
+          alt="Last slide"
+          style={{ width: 'auto', height: '800px' }}
         />
         <Carousel.Caption>
           <h5>Enjoy!</h5>
@@ -77,4 +78,4 @@ function DarkVariantExample() {
   );
 }
 
-export default DarkVariantExample;
+export default CheesecakeCooking;
