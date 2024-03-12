@@ -1,8 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ChickensaladCooking() {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel >
       <Carousel.Item>
         <img
           className="d-block w-100"
