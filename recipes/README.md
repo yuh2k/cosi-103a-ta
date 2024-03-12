@@ -1,7 +1,6 @@
 # How to Run the Recipes React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-To run the website, complete the following:
+After moving the deployment to a backend server, separate from the provided create-react-app server,
+the following must be done to run the Recipes React App:
 
 ### `cd recipes`
 This changes the directory to the recipes folder. Next, run:
@@ -9,10 +8,16 @@ This changes the directory to the recipes folder. Next, run:
 ### `npm install`
 This installs node_modules and packages to run the pages.
 
-Finally, you can run:
-### `npm start ` 
-This will run the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `npm run build`
+This creates an optimized version of the code.
+
+### `cd ..`
+This changes the directory to outside the recipes folder. Finally, run:
+
+### `node server/index.js`
+This will create a port for the Recipes React App to run on.
+Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+
 
 # Tasty Recipes Website
 
@@ -22,6 +27,7 @@ A navigation bar can be found at the top of all the pages that can take you back
 landing page or our team page.
 
 Each detail page includes an image of the dish, a list of ingredients, and step-by-step\
-instructions on how to create the dish. 
+instructions on how to create the dish. On each recipe page, there is also an option for cooking\
+mode which displays images and steps in a carousel bootstrap.
 
 Our team page includes a profile picture and a quick description of us. 
