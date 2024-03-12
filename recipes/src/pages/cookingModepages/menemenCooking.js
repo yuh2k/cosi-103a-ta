@@ -1,4 +1,3 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,7 +8,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://media.istockphoto.com/id/186768677/photo/pouring-eating-oil-in-frying-pan.jpg?s=612x612&w=0&k=20&c=Eo_Gj0fs1XErqTGWgIzd-8yYm20dSwjMqKv2BYH2AuE="
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -22,7 +20,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://i0.wp.com/aflavorjournal.com//wp-content/uploads/2019/03/caramelized-onions-6-1024x731.jpg?resize=1024%2C731&ssl=1"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -35,7 +32,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://sundaysuppermovement.com/wp-content/uploads/2023/10/sauteed-peppers-and-onions-hero.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -48,7 +44,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://live.staticflickr.com/959/27316272337_155cf86839_b.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -61,7 +56,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://www.budgetbytes.com/wp-content/uploads/2018/10/Homemade-Cajun-Seasoning-H-mix.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -74,7 +68,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://sowthetable.com/wp-content/uploads/2021/10/E97108BC-464E-4CFC-A007-7B4A6A75EE59_1_201_a-1080x720.webp"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -82,7 +75,6 @@ function ControlledCarousel() {
          <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://www.grocery.coop/sites/default/files/NCG_Dennis_Becker_Menemen_715_x_477.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -100,7 +92,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://image.milimaj.com/i/milliyet/75/0x0/5f46f0135542821134f67099.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -113,7 +104,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpBbnUoS6Goa7zJn1j7tlnmUPbdz2O2m4isQ&usqp=CAU"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -126,7 +116,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://post.healthline.com/wp-content/uploads/2020/01/parsley-herb-1296x728-header-1296x728.jpg"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
@@ -139,7 +128,6 @@ function ControlledCarousel() {
         <Carousel.Item>
         <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://piquantpost.com/cdn/shop/articles/CzFGt1CWq7c2ZOW6MstOt_1000x.jpg?v=1624050448"
           alt="First Slide"
           style={{ width: 'auto', height: '800px'}}
