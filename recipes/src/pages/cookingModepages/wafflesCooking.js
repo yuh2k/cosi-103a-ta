@@ -1,4 +1,3 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,7 +7,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://content.instructables.com/FJH/668J/IM7YSOOA/FJH668JIM7YSOOA.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -21,7 +19,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://images.squarespace-cdn.com/content/v1/5a44331764b05f1c833e4d32/1568388150952-GXYI0WRLV3N2GG779SQ3/IMG_1261.jpg"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -34,7 +31,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://images.squarespace-cdn.com/content/v1/5a44331764b05f1c833e4d32/1568388201178-WCEXBK98LRSODM1DJOD3/IMG_1256.jpg"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -47,7 +43,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://i2.wp.com/bakerbettie.com/wp-content/uploads/2018/04/how-to-make-muffins-3-280x280.jpg"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -60,7 +55,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://farm3.staticflickr.com/2907/14551074185_3c6c1e6303.jpg"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -73,7 +67,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://akm-img-a-in.tosshub.com/sites/dailyo//resources/202308/output-z9b2to240823115638.gif"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -86,7 +79,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://www.krusteaz.com/wp-content/uploads/2021/06/KR_St_BelgianWaffle_5_6141.jpg"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}
@@ -99,7 +91,6 @@ function ControlledCarousel() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "https://www.dish-works.com/wp-content/uploads/2019-8_PAE_Waffle_1920_GIF_v2-SM.gif"
           alt="First Slide"
           style={{ width: "auto" , height: '700px' }}

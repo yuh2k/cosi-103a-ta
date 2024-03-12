@@ -1,16 +1,12 @@
-import React from 'react';
-import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function kungpaoCooking() {
+function KungpaoCooking() {
   return (
     <Carousel>
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -23,7 +19,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -36,7 +31,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -49,7 +43,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -62,7 +55,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -75,7 +67,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -88,7 +79,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -101,7 +91,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -114,7 +103,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -127,7 +115,6 @@ function kungpaoCooking() {
       <Carousel.Item>
       <img
           className="d-block w-100"
-          //src="holder.js/800x400?text=First slide&bg=f5f5f5"
           src= "oven.jpeg"
           alt="First Slide"
           style={{ width: '800px', height: '400px' }}
@@ -141,4 +128,4 @@ function kungpaoCooking() {
   );
 }
 
-export default kungpaoCooking;
+export default KungpaoCooking;
