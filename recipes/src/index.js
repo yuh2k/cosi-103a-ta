@@ -18,7 +18,6 @@ import MenemenCooking from "./pages/cookingModepages/menemenCooking.js";
 import KungpaoCooking from "./pages/cookingModepages/kungpaoCooking.js";
 import WafflesCooking from "./pages/cookingModepages/wafflesCooking.js";
 
-
 import Team from "./pages/team.js";
 import NoPage from "./pages/nopage.js";
 import "./index.css";
