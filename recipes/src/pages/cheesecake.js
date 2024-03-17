@@ -1,71 +1,43 @@
-
-import cheesecake from "./images/cheesecake.jpg";
 import React from 'react';
-import {useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import  {Link } from "react-router-dom";
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from 'react-bootstrap/Modal';
+import Recipe from './recipesData.js';
+import cheesecake from "./images/cheesecake.jpg";
 
 const Cheesecake = () => {
-  const [show, setShow] = useState(false);
+    const recipeData = {
+        title: "Cheesecake Recipe",
+        heading: "Classic Cheesecake Recipe",
+        image: cheesecake,
+        ingredients: [
+            "1 1/2 cups graham cracker crumbs",
+            "1/2 cup butter, melted",
+            "4 (8 ounce) packages cream cheese",
+            "1 1/4 cups white sugar",
+            "1 teaspoon vanilla extract",
+            "4 eggs",
+            "2/3 cup heavy cream"],
+        instructions: [
+            "1. Preheat your oven to 325°F (163°C).",
+            "2. Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to create the crust.",
+            "3. In a large mixing bowl, beat the softened cream cheese until smooth. Add sugar and vanilla extract, continue beating until well combined.",
+            "4. Add eggs one at a time, beating well after each addition. Mix in the heavy cream until the batter is smooth.",
+            "5. Pour the cream cheese mixture over the crust in the springform pan.",
+            "6. Bake in the preheated oven for 55-60 minutes or until the center is set. The edges should be slightly golden, and the center should have a slight jiggle.",
+            "7. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.",
+            "8. Once chilled, run a knife around the edge of the pan before releasing the springform sides.",
+            "9. Slice and serve your delicious homemade cheesecake!"],
+        buttonLink: "/cheesecakeCooking",
+        nutritionInfo: [
+            "Calories: 200",
+            "Fat: 10g",
+            "Protein: 5g"
+        ]
+    };
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
     return (
-      <div>
-        <h1>Cheesecake Recipe</h1>
-        
-          <img class="page_img"src={cheesecake} alt="cheesecake"/>
-    
-          <h2>Ingredients:</h2>
-          <ul>
-            <li>2 cups graham cracker crumbs</li>
-            <li>1/2 cup unsalted butter, melted</li>
-            <li>4 packages (8 oz each) cream cheese, softened</li>
-            <li>1 cup granulated sugar</li>
-            <li>1 teaspoon vanilla extract</li>
-            <li>4 large eggs</li>
-            <li>1 cup sour cream</li>
-          </ul>
-          <h2>Instructions:</h2>
-            <p>1. Preheat your oven to 325°F (163°C).</p>
-            <p>2. Mix graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to create the crust.</p>
-            <p>3. Bake the crust in the preheated oven for 10 minutes. Remove and let it cool.</p>
-            <p>4. In a large mixing bowl, beat the softened cream cheese until smooth. Add sugar and vanilla extract, continue beating until well combined.</p>
-            <p>5. Add eggs one at a time, beating well after each addition. Mix in the sour cream until the batter is smooth.</p>
-            <p>6. Pour the cream cheese mixture over the cooled crust in the springform pan.</p>
-            <p>7. Bake in the preheated oven for 50-60 minutes or until the center is set. The edges should be slightly golden, and the center should have a slight jiggle.</p>
-            <p>8. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.</p>
-            <p>9. Once chilled, run a knife around the edge of the pan before releasing the springform sides.</p>
-            <p>10. Slice and serve your delicious homemade cheesecake!</p>
-            <Link to="/cheesecakeCooking">
-              <Button>Cooking Mode</Button>
-            </Link>
-           
-            <Button variant="primary" onClick={handleShow}>
-            Nutritional Information
-            </Button>
-          <Modal show={show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Nutritional Information</Modal.Title>
-            </Modal.Header>
-          <Modal.Body>
-            {/*Info */}
-            <p>Calories: 200</p>
-            <p>Fat: 10g</p>
-            <p>Protein: 5g</p>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
-           
-      </div>
-    )
-  };
-  
-  export default Cheesecake;
+        <div>
+            <Recipe {...recipeData} />
+        </div>
+    );
+};
+
+export default Cheesecake;
