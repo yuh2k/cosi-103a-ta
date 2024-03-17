@@ -26,7 +26,10 @@ const Spaghetti = () => {
             "6. Season with salt and pepper.",
             "7. Serve your delicious Spaghetti Aglio e Olio with Shrimp!",
             "8. Enjoy your home cooked Aglio e Olio!"],
-        buttonLink: "/spaghettiCooking"
+        buttonLink: "/spaghettiCooking",
+        nutritionInfo: [
+            "placeholder"
+        ]
     };
 
     return (

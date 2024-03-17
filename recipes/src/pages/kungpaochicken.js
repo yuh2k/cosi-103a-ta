@@ -34,7 +34,10 @@ const Kungpaochicken = () => {
             "6. Serve the Kung Pao chicken with cooked rice.",
             "7. Serve the Kung Pao Chicken over cooked rice and garnish with additional green onions and peanuts if desired.",
             "8. Dig in to your home cooked Sichuan Kung Pao Chicken!"],
-        buttonLink: "/kungpaoCooking"
+        buttonLink: "/kungpaoCooking",
+        nutritionInfo: [
+            "placeholder"
+        ]
     };
 
     return (

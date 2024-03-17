@@ -26,7 +26,10 @@ const Chickensalad = () => {
             "7. Drizzle balsamic vinaigrette dressing over the salad and chicken.",
             "8. Toss everything together gently to combine.",
             "9. Serve immediately and enjoy!"],
-        buttonLink: "/chickensaladCooking"
+        buttonLink: "/chickensaladCooking",
+        nutritionInfo: [
+            "placeholder"
+        ]
     };
 
     return (

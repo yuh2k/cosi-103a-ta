@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Button, Modal } from 'react-bootstrap';
 
-const Recipe = ({ title, heading, image, ingredients, instructions, buttonLink }) => {
+const Recipe = ({ title, heading, image, ingredients, instructions, buttonLink, nutritionInfo }) => {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  
   return (
     <div className="recipe">
       <title>{title}</title>
@@ -18,7 +23,28 @@ const Recipe = ({ title, heading, image, ingredients, instructions, buttonLink }
           <ol key={index}>{instruction}</ol>
         ))}
       </ul>
-      <a href={buttonLink}><button>Cooking Mode</button></a>
+      <a href={buttonLink}><Button>Cooking Mode</Button></a>
+      <Button variant="primary" onClick={handleShow}>    
+        Nutritional Information
+      </Button>
+          <Modal show={show} onHide={handleClose}>
+            <Modal.Header closeButton>
+              <Modal.Title>Nutritional Information</Modal.Title>
+            </Modal.Header>
+          <Modal.Body>
+            <ul>
+              {nutritionInfo.map((nutritionInfo, index) => (
+                <ol key={index}>{nutritionInfo}</ol>
+              ))}
+            </ul>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+
     </div>
   );
 };

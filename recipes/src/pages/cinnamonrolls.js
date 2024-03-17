@@ -24,7 +24,10 @@ const Cinnamonrolls = () => {
             "8. Bake in the preheated oven for the time specified on the puff pastry package or until the rolls are golden brown.",
             "9. Optional: Mix powdered sugar with a small amount of milk to create a simple icing. Drizzle over the warm cinnamon rolls.",
             "10. Dig into your warm cinnamon rolls!"],
-        buttonLink: "/cinnamonrollsCooking"
+        buttonLink: "/cinnamonrollsCooking",
+        nutritionInfo: [
+            "placeholder"
+        ]
     };
 
     return (

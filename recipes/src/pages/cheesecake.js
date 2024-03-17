@@ -25,7 +25,12 @@ const Cheesecake = () => {
             "7. Allow the cheesecake to cool in the oven with the door ajar for about an hour. Refrigerate for at least 4 hours or overnight before serving.",
             "8. Once chilled, run a knife around the edge of the pan before releasing the springform sides.",
             "9. Slice and serve your delicious homemade cheesecake!"],
-        buttonLink: "/cheesecakeCooking"
+        buttonLink: "/cheesecakeCooking",
+        nutritionInfo: [
+            "Calories: 200",
+            "Fat: 10g",
+            "Protein: 5g"
+        ]
     };
 
     return (
