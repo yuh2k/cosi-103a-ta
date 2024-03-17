@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import GroceryList from "./grocerylist/grocerylist";
+import { Form } from 'react-bootstrap';
 
 export default function Layout() {
   
@@ -12,6 +13,11 @@ export default function Layout() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  
+  const [recipeShow, setRecipeShow] = useState(false);
+const handleRecipeClose = () => setRecipeShow(false);
+const handleRecipeShow = () => setRecipeShow(true);
+
 
   
 // Add a navigation bar to the layout
@@ -35,7 +41,30 @@ export default function Layout() {
                   </GroceryList>
               </Offcanvas.Body>
             </Offcanvas>
-          
+            <Nav.Link variant="primary" onClick={handleRecipeShow}>
+  Add Recipes
+</Nav.Link>
+<Offcanvas show={recipeShow} onHide={handleRecipeClose}>
+  <Offcanvas.Header closeButton>
+    <p>Add Recipes</p>
+  </Offcanvas.Header>
+  <Offcanvas.Body>
+    <Form>
+      <Form.Group className="mb-3">
+        <Form.Label>Recipe 1</Form.Label>
+        <Form.Control type="text" placeholder="Enter recipe" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Recipe 2</Form.Label>
+        <Form.Control type="text" placeholder="Enter recipe" />
+      </Form.Group>
+      <Form.Group className="mb-3">
+        <Form.Label>Recipe 3</Form.Label>
+        <Form.Control type="text" placeholder="Enter recipe" />
+      </Form.Group>
+    </Form>
+  </Offcanvas.Body>
+</Offcanvas>
             </Nav>
           </Container>
         </Navbar>
