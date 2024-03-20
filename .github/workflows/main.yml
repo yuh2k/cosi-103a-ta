@@ -24,6 +24,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: <registry103a>
+          acrName: registry103a
           containerAppName: recipecontainerapp
           resourceGroup: cosi-103a
